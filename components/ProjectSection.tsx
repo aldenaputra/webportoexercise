@@ -22,7 +22,7 @@ const projects = [
         name: "Clustering & Classification in Cloudera, Big Data Processing Project",
         desc: "Performing clustering and classification in Cloudera using jupyter notebook. Implementing big data analysis in Python.",
         image: "/clasclus.png",
-        link:"https://github.com/aldenaputra/clas-clus.git",
+        link:"https://github.com/aldenaputra/cloudera-jupyter-notebook.git",
     },
     {
         name: "Algorithm Design in C, Algorithm & Programming Project",

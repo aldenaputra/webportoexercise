@@ -1,5 +1,11 @@
 import React from 'react'
 import Image from 'next/image'
+import  {
+    AiOutlineGithub,
+    AiOutlineTwitter,
+    AiOutlineLinkedin,
+    AiOutlineYoutube,
+} from "react-icons/ai"
 
 const skills = [
     { skill: "SQL" },
@@ -67,6 +73,24 @@ const AboutSection = () => {
                     <p></p>
                 </div>
             </div>
+            
+            <div className='flex flex-col space-y-10 items-stretch justify-center align-top md:flex-row md:test-left md:p-4 md:space-y-0 md:space-x-10'>
+                <div className='md:w-1/2'>
+                    <h1 className='text-center text-2xl font-bold mb-6 md:text-left'>Contacts</h1>
+                    <p>alden.putra@binus.ac.id</p>
+                    <p>+62 812 8690 6326</p>
+                    <a href="https://github.com/aldenaputra" rel="noreferrer" target="_blank">
+                        <p className='hover:text-blue-700 no-underline hover:underline'>https://github.com/aldenaputra</p>
+                    </a>
+                    <a href="https://www.linkedin.com/in/aldenaputra/" rel="noreferrer" target="_blank">
+                        <p className='hover:text-blue-700 no-underline hover:underline'>https://www.linkedin.com/in/aldenaputra/</p>
+                    </a>
+                </div>
+
+                <div className='md:w-1/2'>
+                </div>
+            </div>
+            
         </div>
     </section>
   )
