@@ -29,7 +29,7 @@ const skills = [
 const AboutSection = () => {
   return (
     <section id="about">
-        <div className='my-12 pb-12 md:pt-16 md:pb-48'>
+        <div className='my-12 pb-12 md:pt-16 md:pb-38'>
             <h1 className='text-center font-bold text-4xl'>
                 About Me
                 <hr className='w-6 h-1 mx-auto my-4 bg-teal-500 border-0 rounded'/>
@@ -74,23 +74,24 @@ const AboutSection = () => {
                 </div>
             </div>
             
-            <div className='flex flex-col space-y-10 items-stretch justify-center align-top md:flex-row md:test-left md:p-4 md:space-y-0 md:space-x-10'>
-                <div className='md:w-1/2'>
-                    <h1 className='text-center text-2xl font-bold mb-6 md:text-left'>Contacts</h1>
-                    <p>alden.putra@binus.ac.id</p>
-                    <p>+62 812 8690 6326</p>
-                    <a href="https://github.com/aldenaputra" rel="noreferrer" target="_blank">
-                        <p className='hover:text-blue-700 no-underline hover:underline'>https://github.com/aldenaputra</p>
-                    </a>
-                    <a href="https://www.linkedin.com/in/aldenaputra/" rel="noreferrer" target="_blank">
-                        <p className='hover:text-blue-700 no-underline hover:underline'>https://www.linkedin.com/in/aldenaputra/</p>
-                    </a>
-                </div>
+            <div className='my-10'>
+                <div className='flex flex-col space-y-10 items-stretch justify-center align-top md:flex-row md:test-left md:p-4 md:space-y-0 md:space-x-10'>
+                    <div className='md:w-1/2'>
+                        <h1 className='text-center text-2xl font-bold mb-6 md:text-left'>Contacts</h1>
+                        <p>alden.putra@binus.ac.id</p>
+                        <p>+62 812 8690 6326</p>
+                        <a href="https://github.com/aldenaputra" rel="noreferrer" target="_blank">
+                            <p className='hover:text-blue-700 no-underline hover:underline'>https://github.com/aldenaputra</p>
+                        </a>
+                        <a href="https://www.linkedin.com/in/aldenaputra/" rel="noreferrer" target="_blank">
+                            <p className='hover:text-blue-700 no-underline hover:underline'>https://www.linkedin.com/in/aldenaputra/</p>
+                        </a>
+                    </div>
 
-                <div className='md:w-1/2'>
+                    <div className='md:w-1/2'>
+                    </div>
                 </div>
             </div>
-            
         </div>
     </section>
   )
