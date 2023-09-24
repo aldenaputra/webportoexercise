@@ -56,7 +56,7 @@ const AboutSection = () => {
                 </div>
 
                 <div className='md:w-1/2'>
-                    <h1 className='text-center text-2xl font-bold mb-6 md:text-left'>My Skills</h1>
+                    <h1 className='text-center text-2xl font-bold mb-6 md:text-left'>My skills</h1>
                     <div className='flex flex-wrap flex-row justify-senter md:justify-start'>
                         {skills.map((item, idx) => {
                             return <p key={idx} className="bg-gray-200 px-4 py-2 mr-2 mt-2 text-teal-600 rounded font-semibold"> {item.skill} </p>
