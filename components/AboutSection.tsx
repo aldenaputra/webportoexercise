@@ -37,13 +37,13 @@ const AboutSection = () => {
                     </p>
                     <br />
                     <p>
-                        I'm a {" "}
+                        I&apos;m a {" "}
                         <span className='font-bold'>{"tech-savvy"}</span>, and a 
                         <span className='font-bold'>{" passionate"}</span> learner who recognizes the role of communications as the grand foundation to attain successfully mutual understanding in every form of collaboration and teamwork. Currently in pursuit to achieve a prominent career in the world of IT, especially data.
                     </p>
                     <br />
                     <p>
-                    I'm 
+                    I&apos;m 
                         <span className='font-bold'>{" dedicated"}</span> to upscaling my technical competencies to attain sophisticated enterprise-level experience in real-world, data-driven, problem-solving scenarios. 
                     </p>
 

@@ -12,9 +12,9 @@ const HeroSection = () => {
                 <Image className='rounded-full shadow-2xl' src="/portrait.jpg" alt="" width={300} height={300} />
             </div>
             <div className='md:mt2 md:w-3/5'>
-                <h1 className='font-bold text-4xl mt-6 md:text-7xl md:mt-0'>Hi, I'm Alden!</h1>
+                <h1 className='font-bold text-4xl mt-6 md:text-7xl md:mt-0'>Hi, I&apos;m Alden!</h1>
                 <p className='text-lg mt-4 mb-6 md:text-2xl'>
-                    I'm a {" "}
+                    I&apos;m a {" "}
                     <span className="font-semibold text-teal-600">
                         third-year student {" "}
                     </span>
