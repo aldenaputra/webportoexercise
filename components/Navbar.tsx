@@ -1,7 +1,7 @@
 "use client"
 import React from "react"
 import { useState } from "react"
-import { Link } from "react-scroll/modules"
+import { Link as ScrollLink } from "react-scroll/modules"
 import { useTheme } from "next-themes"
 import { RiMoonFill, RiSunLine } from "react-icons/ri"
 import { IoMdMenu, IoMdClose } from "react-icons/io"
@@ -37,9 +37,9 @@ const Navbar = () => {
                 <div>
                     <div className="flex items-centered justify-between py-3">
                         <div className="md:py-5 md:block">
-                            <Link to="home">
+                            <ScrollLink to="home">
                                 <h2 className="text-2xl font-bold">Alden A. Putra</h2>
-                            </Link>
+                            </ScrollLink>
                         </div>
 
                         <div className="md:hidden">
@@ -56,7 +56,7 @@ const Navbar = () => {
                         <div className="items-center justify-center space-y-8 md:flex md:space-x-6 md:space-y-0">
                             {NAV_ITEMS.map((item, idx) => {
                                 return (
-                                    <Link
+                                    <ScrollLink
                                     key={idx}
                                     to={item.page}
                                     className={
@@ -68,7 +68,7 @@ const Navbar = () => {
                                     offset={-100}
                                     duration={500}
                                     onClick={() => setNavbar(!navbar)}
-                                    >{item.label}</Link>
+                                    >{item.label}</ScrollLink>
                                 )
                             })}
                             {currentTheme === "dark" ? (

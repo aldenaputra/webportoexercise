@@ -1,7 +1,7 @@
 "use client"
 import React from 'react'
 import Image from 'next/image'
-import { Link } from 'react-scroll/modules'
+import { Link as ScrollLink } from 'react-scroll/modules'
 import { HiArrowDown } from "react-icons/hi"
 
 const HeroSection = () => {
@@ -20,7 +20,7 @@ const HeroSection = () => {
                     </span>
                     (GPA 3.89) in BINUS University, Jakarta. Currently studying Computer Science focusing in Database Technology.
                 </p>
-                <Link
+                <ScrollLink
                 to="projects"
                 className="text-neutral-100 font-semibold px-6 py-3 bg-teal-600 rounded shadow hover:bg-teal-700"
                 activeClass="active"
@@ -30,12 +30,12 @@ const HeroSection = () => {
                 duration={500}
                 >
                     Projects
-                </Link>
+                </ScrollLink>
             </div>
         </div>
 
         <div className='flex flex-row justify-center'>
-            <Link
+            <ScrollLink
             to="about"
             activeClass="active"
             spy={true}
@@ -44,7 +44,7 @@ const HeroSection = () => {
             duration={500}
             >
                 <HiArrowDown size={35} className="animate-bounce" />
-            </Link>
+            </ScrollLink>
         </div>
     </section>
   )
