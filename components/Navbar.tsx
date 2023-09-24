@@ -37,7 +37,9 @@ const Navbar = () => {
                 <div>
                     <div className="flex items-centered justify-between py-3">
                         <div className="md:py-5 md:block">
-                            <h2 className="text-2xl font-bold">Alden A. Putra</h2>
+                            <Link to="home">
+                                <h2 className="text-2xl font-bold">Alden A. Putra</h2>
+                            </Link>
                         </div>
 
                         <div className="md:hidden">

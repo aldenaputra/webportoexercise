@@ -7,22 +7,34 @@ import SlideUp from './SlideUp'
 
 const projects = [
     {
-        name: "Project 1",
-        desc: "Nam ullamcorper consequat felis suscipit aliquet. Cras sit amet sodales est.",
-        image: "/dummyproj.jpeg",
-        link:"https://github.com/aldenaputra",
+        name: "Travail: Travel & Rail, Software Engineering Project",
+        desc: "Entrusted to lead a software engineering project, Travail: Travel & Rail. Built a fully functional (full-stack) train e-ticketing website using Laravel's framework. Worked in a team of 5. The feature consists of account login registration, email confirmation, ticket and schedule displaying, seating, payment, and transaction history.",
+        image: "/travail.png",
+        link:"https://github.com/VzGarnet/Travail.git",
     },
     {
-        name: "Project 2",
-        desc: "Cras sit amet sodales est. Vestibulum ut magna ac quam rhoncus.",
-        image: "/dummyproj.jpeg",
-        link:"https://github.com/aldenaputra",
+        name: "KarenJET, Database Design Project",
+        desc: "Entrusted to lead a database design project, KarenJET. Designing a database for enterprise scenarios and developing a mitigation plan for system alteration and recovery for specific scenarios that involve database transactions. Performed a strict normalization from 1NF to 5NF and created diagrams to elaborate the database system.",
+        image: "/Database Design.png",
+        link:"https://binusianorg-my.sharepoint.com/personal/alden_putra_binus_ac_id/_layouts/15/guestaccess.aspx?share=Ea_I6XQHFexNo-1RpLEk5MwBu3iwi47HMqHfiuZeruUoZg&e=zqngRY",
     },
     {
-        name: "Project 3",
-        desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam ullamcorper consequat felis suscipit aliquet.",
-        image: "/dummyproj.jpeg",
-        link:"https://github.com/aldenaputra",
+        name: "Clustering & Classification in Cloudera, Big Data Processing Project",
+        desc: "Performing clustering and classification in Cloudera using jupyter notebook. Implementing big data analysis in Python.",
+        image: "/clasclus.png",
+        link:"https://github.com/aldenaputra/clas-clus.git",
+    },
+    {
+        name: "Algorithm Design in C, Algorithm & Programming Project",
+        desc: "Constructing several algorithms in C to solve logical problems and creating each flowchart to describe further the algorithm scheme.",
+        image: "/algoprog.png",
+        link:"https://github.com/aldenaputra/algoprog_AoL.git",
+    },
+    {
+        name: "Portfolio Website Project using Next.js Framework",
+        desc: "Created and deployed a portfolio website using the Next.js framework and free hosting services from Vercel.",
+        image: "/porto.png",
+        link:"https://github.com/aldenaputra/webportoexercise.git",
     },
 ]
 
@@ -56,12 +68,6 @@ const ProjectSection = () => {
                                     <h1 className='test-4xl font-bold mb-6'>{project.name}</h1>
                                     <p className='text-xl leading-7 mb-4 text-neutral-600 dark:text-neutral-400'>{project.desc}</p>
                                     <div className='flex flex-row align-bottom space-x-4'>
-                                        <Link href={project.link} target="_blank">
-                                            <BsGithub
-                                            size={30}
-                                            className="hover:-translate-y-1 transition-transform cursor-pointer"
-                                            />
-                                        </Link>
                                         <Link href={project.link} target="_blank">
                                             <BsArrowUpRightSquare
                                             size={30}

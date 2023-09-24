@@ -16,10 +16,9 @@ const HeroSection = () => {
                 <p className='text-lg mt-4 mb-6 md:text-2xl'>
                     I'm a {" "}
                     <span className="font-semibold text-teal-600">
-                        Undergraduate Student{" "}
+                        third-year student {" "}
                     </span>
-                    based in Jakarta, Indonesia. Currently studying in 
-                    BINUS University majoring in Computer Science.
+                    (GPA 3.89) in BINUS University, Jakarta. Currently studying Computer Science focusing in Database Technology.
                 </p>
                 <Link
                 to="projects"
