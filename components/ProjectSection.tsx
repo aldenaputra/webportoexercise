@@ -19,8 +19,8 @@ const projects = [
         link:"https://binusianorg-my.sharepoint.com/personal/alden_putra_binus_ac_id/_layouts/15/guestaccess.aspx?share=Ea_I6XQHFexNo-1RpLEk5MwBu3iwi47HMqHfiuZeruUoZg&e=zqngRY",
     },
     {
-        name: "Clustering & Classification in Cloudera, Big Data Processing Project",
-        desc: "Performing clustering and classification in Cloudera using jupyter notebook. Implementing big data analysis in Python.",
+        name: "SparkSQL and Clustering in Cloudera, Big Data Processing Implementation",
+        desc: "Performing data visualization using SparkSQL (Sqoop) and exercising data clustering using k-means model projected onto scatter plot in Cloudera (jupyter notebook).",
         image: "/clasclus.png",
         link:"https://github.com/aldenaputra/cloudera-jupyter-notebook.git",
     },
@@ -35,6 +35,18 @@ const projects = [
         desc: "Created and deployed a portfolio website using the Next.js framework and free hosting services from Vercel.",
         image: "/porto.png",
         link:"https://github.com/aldenaputra/webportoexercise.git",
+    },
+    {
+        name: "PlaTo UI&UX Prototyping, Human & Computer Interaction Project",
+        desc: "Designing UI and conducting UX testing for IoT application that featured to perform automatic plant nursery remotely.",
+        image: "/plato.png",
+        link:"https://www.figma.com/file/UQahPrf3riu2UKva5k0csY/HCI---AoL-Case?type=design&node-id=101%3A2&mode=design&t=QbNj488Xs4JhnUr4-1",
+    },
+    {
+        name: "Computer Network Design & Prototyping, Computer Network Case Study & Project",
+        desc: "Prototyping a computer network for specific case study and performing a comprehensive network simulation using Cisco Packet Tracer.",
+        image: "/cn.png",
+        link:"https://binusianorg-my.sharepoint.com/personal/alden_putra_binus_ac_id/_layouts/15/guestaccess.aspx?share=EW2O2MDH3w1Nofp_3QBWyzsBNHT_M0GTICEKxs568-y1Bg&e=z31jAs",
     },
 ]
 
