@@ -13,6 +13,12 @@ const projects = [
         link:"https://github.com/VzGarnet/Travail.git",
     },
     {
+        name: "IT Strategic Workspaces: Approach to Develop an Ideal Environment - Research Methodology in Computer Science",
+        desc: "Conducted a research (SLR) regarding IT workspaces in order to find tangible metrics and method to develop an ideal environment for IT human resources, namely programmers.",
+        image: "/rmcs.png",
+        link:"https://lavender-magazine-13e.notion.site/Research-Paper-SLR-8fd20ca95e6342cfaedd44daebe983a3?pvs=4",
+    },
+    {
         name: "KarenJET, Database Design Project",
         desc: "Entrusted to lead a database design project, KarenJET. Designing a database for enterprise scenarios and developing a mitigation plan for system alteration and recovery for specific scenarios that involve database transactions. Performed a strict normalization from 1NF to 5NF and created diagrams to elaborate the database system.",
         image: "/Database Design.png",
