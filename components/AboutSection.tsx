@@ -12,20 +12,25 @@ import { composeEmail } from './emailUtils'
 const skills = [
     { skill: "SQL" },
     { skill: "MySQL" },
+    { skill: "Python" },
+    { skill: "Database Design" },
+    { skill: "Laravel" },
+    { skill: "Next.js" },
+    { skill: "Git" },
     { skill: "C/C++" },
     { skill: "Java" },
-    { skill: "Python" },
-    { skill: "Public Speaking" },
-    { skill: "Database Design" },
-    { skill: "Communication" },
-    { skill: "Blade PHP" },
-    { skill: "React" },
-    { skill: "Next.js" },
-    { skill: "Vue.js" },
-    { skill: "GitHub" },
+    { skill: "R" },
     { skill: "Virtual Machine (Cloudera)" },
-    { skill: "Mentoring" },
-    { skill: "Teaching" },
+]
+
+const softskills = [
+    { skill: "Public Speaking" },
+    { skill: "Communication" },
+    { skill: "Research" },
+    { skill: "Leadership" },
+    { skill: "Problem Solving" },
+    { skill: "Risk Management" },
+    { skill: "Time Management" },
 ]
 
 const AboutSection = () => {
@@ -113,15 +118,23 @@ const AboutSection = () => {
                     </div>
 
                     <div className='md:w-1/2'>
-                        <h1 className='text-center text-2xl font-bold mb-6 md:text-left'>Skills</h1>
+                        <h1 className='text-center text-2xl font-bold mb-6 md:text-left'>Technical Skills</h1>
                         <div className='flex flex-wrap flex-row justify-center md:justify-start'>
                             {skills.map((item, idx) => {
-                                return <p key={idx} className="bg-gray-200 px-4 py-2 mr-2 mt-2 text-neutral-800 rounded font-semibold"> {item.skill} </p>
+                                return <p key={idx} className="bg-gray-200 px-4 py-2 mr-2 mt-2 text-teal-600 rounded font-semibold"> {item.skill} </p>
                             })}
                         </div>
                         {/* <Image className="hidden md:block md:relative md:bottom-4 md:left-32 md:z-0" src="/stat.png" alt="" width={325} height={325}/> */}
                         
-                        <p></p>
+                        <br />
+                        <br />
+
+                        <h1 className='text-center text-2xl font-bold mb-6 md:text-left'>Soft Skills</h1>
+                        <div className='flex flex-wrap flex-row justify-center md:justify-start'>
+                            {softskills.map((item, idx) => {
+                                return <p key={idx} className="bg-gray-200 px-4 py-2 mr-2 mt-2 text-teal-600 rounded font-semibold"> {item.skill} </p>
+                            })}
+                        </div>
                     </div>
                 </div>
                 

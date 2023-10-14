@@ -31,6 +31,11 @@ const HeroSection = () => {
                 >
                     Projects
                 </ScrollLink>
+
+                <a
+                href="https://binusianorg-my.sharepoint.com/personal/alden_putra_binus_ac_id/_layouts/15/guestaccess.aspx?share=ESfGWBQNkJxNrYtW51ryIo4Bq0XLshNvHGgVDri2J16zSw&e=CbRft6"
+                className="ml-3 text-neutral-100 font-semibold px-6 py-3 bg-teal-600 rounded shadow hover:bg-teal-700"
+                >CV</a>
             </div>
         </div>
 
