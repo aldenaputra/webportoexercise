@@ -7,14 +7,26 @@ import SlideUp from './SlideUp'
 
 const projects = [
     {
-        name: "Travail: Travel & Rail, Software Engineering Project",
+        name: "Travail: Travel & Rail, Software Engineering Project using Laravel Framework",
         desc: "Entrusted to lead a software engineering project, Travail: Travel & Rail. Built a fully functional (full-stack) train e-ticketing website using Laravel's framework. Worked in a team of 5. The feature consists of account login registration, email confirmation, ticket and schedule displaying, seating, payment, and transaction history.",
         image: "/travail.png",
         link:"https://github.com/VzGarnet/Travail.git",
     },
     {
-        name: "IT Strategic Workspaces: Approach to Develop an Ideal Environment - Research Methodology in Computer Science",
-        desc: "Conducted a research (SLR) regarding IT workspaces in order to find tangible metrics and method to develop an ideal environment for IT human resources, namely programmers.",
+        name: "Portfolio Website Project using Next.js Framework",
+        desc: "Created and deployed a portfolio website using the Next.js framework and free hosting services from Vercel.",
+        image: "/porto.png",
+        link:"https://github.com/aldenaputra/webportoexercise.git",
+    },
+    {
+        name: "SparkSQL (Jupyter Notebook & Hadoop) in Cloudera, Big Data Processing Implementation",
+        desc: "Performing data visualization using SparkSQL (Sqoop) and exercising data clustering using k-means model projected onto scatter plot in Cloudera (Jupyter Notebook).",
+        image: "/clasclus.png",
+        link:"https://github.com/aldenaputra/cloudera-jupyter-notebook.git",
+    },
+    {
+        name: "Systematic Literature Review on IT Strategic Workspaces: Approach to Develop an Ideal Environment - Research Methodology in Computer Science",
+        desc: "Conducted a research (SLR) regarding IT workspaces in order to find tangible metrics and method to develop an ideal environment for IT human resources, namely programmers. Ongoing for international conference publication in 9th ICCED 2023",
         image: "/rmcs.png",
         link:"https://lavender-magazine-13e.notion.site/Research-Paper-SLR-8fd20ca95e6342cfaedd44daebe983a3?pvs=4",
     },
@@ -25,28 +37,16 @@ const projects = [
         link:"https://binusianorg-my.sharepoint.com/personal/alden_putra_binus_ac_id/_layouts/15/guestaccess.aspx?share=Ea_I6XQHFexNo-1RpLEk5MwBu3iwi47HMqHfiuZeruUoZg&e=zqngRY",
     },
     {
-        name: "SparkSQL and Clustering in Cloudera, Big Data Processing Implementation",
-        desc: "Performing data visualization using SparkSQL (Sqoop) and exercising data clustering using k-means model projected onto scatter plot in Cloudera (jupyter notebook).",
-        image: "/clasclus.png",
-        link:"https://github.com/aldenaputra/cloudera-jupyter-notebook.git",
+        name: "PlaTo UI&UX Prototyping, Human & Computer Interaction Project",
+        desc: "Designing UI and conducting UX testing for IoT application that featured to perform automatic plant nursery remotely.",
+        image: "/plato.png",
+        link:"https://www.figma.com/file/UQahPrf3riu2UKva5k0csY/HCI---AoL-Case?type=design&node-id=101%3A2&mode=design&t=QbNj488Xs4JhnUr4-1",
     },
     {
         name: "Algorithm Design in C, Algorithm & Programming Project",
         desc: "Constructing several algorithms in C to solve logical problems and creating each flowchart to describe further the algorithm scheme.",
         image: "/algoprog.png",
         link:"https://github.com/aldenaputra/algoprog_AoL.git",
-    },
-    {
-        name: "Portfolio Website Project using Next.js Framework",
-        desc: "Created and deployed a portfolio website using the Next.js framework and free hosting services from Vercel.",
-        image: "/porto.png",
-        link:"https://github.com/aldenaputra/webportoexercise.git",
-    },
-    {
-        name: "PlaTo UI&UX Prototyping, Human & Computer Interaction Project",
-        desc: "Designing UI and conducting UX testing for IoT application that featured to perform automatic plant nursery remotely.",
-        image: "/plato.png",
-        link:"https://www.figma.com/file/UQahPrf3riu2UKva5k0csY/HCI---AoL-Case?type=design&node-id=101%3A2&mode=design&t=QbNj488Xs4JhnUr4-1",
     },
     {
         name: "Computer Network Design & Prototyping, Computer Network Case Study & Project",

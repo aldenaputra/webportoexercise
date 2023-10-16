@@ -22,7 +22,7 @@ const HeroSection = () => {
                 </p>
                 <ScrollLink
                 to="projects"
-                className="text-neutral-100 font-semibold px-6 py-3 bg-teal-600 rounded shadow hover:bg-teal-700"
+                className="text-neutral-100 font-semibold px-6 py-3 bg-teal-600 rounded shadow hover:bg-teal-700 hover:cursor-pointer"
                 activeClass="active"
                 spy={true}
                 smooth={true}
