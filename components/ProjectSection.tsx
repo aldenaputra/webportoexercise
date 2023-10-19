@@ -7,7 +7,7 @@ import SlideUp from './SlideUp'
 
 const projects = [
     {
-        name: "Travail: Travel & Rail, Software Engineering Project using Laravel Framework",
+        name: "Travail: Travel and Rail, Software Engineering Project using Laravel Framework",
         desc: "Entrusted to lead a software engineering project, Travail: Travel & Rail. Built a fully functional (full-stack) train e-ticketing website using Laravel's framework. Worked in a team of 5. The feature consists of account login registration, email confirmation, ticket and schedule displaying, seating, payment, and transaction history.",
         image: "/travail.png",
         link:"https://github.com/VzGarnet/Travail.git",
@@ -19,8 +19,8 @@ const projects = [
         link:"https://github.com/aldenaputra/webportoexercise.git",
     },
     {
-        name: "SparkSQL (Jupyter Notebook & Hadoop) in Cloudera, Big Data Processing Implementation",
-        desc: "Performing data visualization using SparkSQL (Sqoop) and exercising data clustering using k-means model projected onto scatter plot in Cloudera (Jupyter Notebook).",
+        name: "SparkSQL (Jupyter Notebook & Hadoop) in Cloudera Virtual Machine, Big Data Processing Implementation",
+        desc: "Performing data visualization using SparkSQL (Sqoop) and exercising data clustering using k-means model projected onto scatter plot in Cloudera Virtual Machine (Jupyter Notebook).",
         image: "/clasclus.png",
         link:"https://github.com/aldenaputra/cloudera-jupyter-notebook.git",
     },
@@ -37,8 +37,8 @@ const projects = [
         link:"https://binusianorg-my.sharepoint.com/personal/alden_putra_binus_ac_id/_layouts/15/guestaccess.aspx?share=Ea_I6XQHFexNo-1RpLEk5MwBu3iwi47HMqHfiuZeruUoZg&e=zqngRY",
     },
     {
-        name: "PlaTo UI&UX Prototyping, Human & Computer Interaction Project",
-        desc: "Designing UI and conducting UX testing for IoT application that featured to perform automatic plant nursery remotely.",
+        name: "PlaTo UI/UX Prototyping, Human & Computer Interaction Project",
+        desc: "Designing UI and conducting UX testing (via survey and prototype testing) for IoT application that featured to perform automatic plant nursery remotely.",
         image: "/plato.png",
         link:"https://www.figma.com/file/UQahPrf3riu2UKva5k0csY/HCI---AoL-Case?type=design&node-id=101%3A2&mode=design&t=QbNj488Xs4JhnUr4-1",
     },
