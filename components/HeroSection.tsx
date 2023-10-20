@@ -33,7 +33,7 @@ const HeroSection = () => {
                 </ScrollLink>
 
                 <a
-                href="https://binusianorg-my.sharepoint.com/personal/alden_putra_binus_ac_id/_layouts/15/guestaccess.aspx?share=Ef_yZ4wEJXRGusK4eOzrqE0Bcua4vdUHkRJ5M47aoffeLQ&e=fPAZPP"
+                href="https://binusianorg-my.sharepoint.com/personal/alden_putra_binus_ac_id/_layouts/15/guestaccess.aspx?share=EaH4bPhO3pBOgQXGg2dq-YsBe9xU7VP73QDcvrfKHR5lYg&e=ZELc7Y"
                 className="ml-3 text-neutral-100 font-semibold px-6 py-3 bg-teal-600 rounded shadow hover:bg-teal-700"
                 >CV</a>
             </div>
