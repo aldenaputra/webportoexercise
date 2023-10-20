@@ -30,7 +30,7 @@ const experiences = [
     },
     {
         name: "Best Male Student - SMA Regina Pacis Graduation",
-        desc: "I graduated (batch 63 year 2021, AVG 91/100) from Regina Pacis Bogor High School as the Best Male Student in Natural Science and Math major. The event takes place at the school hall with strict health protocols.",
+        desc: "I graduated (batch 63 year 2021, AVG 93.47/100) from Regina Pacis Bogor High School as the Best Male Student in Natural Science and Math major. The event takes place at the school hall with strict health protocols.",
         image: "/bestmale.jpg",
     },
     {
