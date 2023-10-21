@@ -24,6 +24,14 @@ const NAV_ITEMS: Array<NavItem> = [
         label: "Projects",
         page: "projects",
     },
+    {
+        label: "Experiences",
+        page: "experiences",
+    },
+    {
+        label: "Achievements",
+        page: "achievements",
+    },
 ]
  
 const Navbar = () => {

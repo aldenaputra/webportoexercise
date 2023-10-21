@@ -2,6 +2,7 @@ import HeroSection from "@/components/HeroSection"
 import AboutSection from "@/components/AboutSection"
 import ProjectSection from "@/components/ProjectSection"
 import Experiences from "@/components/Experiences"
+import Achievements from "@/components/Achievements"
 
 export default function Home() {
   return (
@@ -10,6 +11,7 @@ export default function Home() {
       <AboutSection />
       <ProjectSection />
       <Experiences />
+      <Achievements />
     </main>
   )
 }

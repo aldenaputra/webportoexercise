@@ -20,23 +20,10 @@ const experiences = [
         soft: ["Public Speaking"],
     },
     {
-        name: "Speaker in 'CLOUD: Control Your Hours, Understand Your Rhythm' by AMSA Universitas Pelita Harapan - Paradigma Remaja",
-        desc: "Invited to attend representing Paradigma Remaja as a source person and speaker in social campaign organized by AMSA Universitas Pelita Harapan. Provide technical information, insight, and spread awareness in front of a vast number of high school students with an interactive approach.",
-        image: "/cloud.jpg",
-        soft: ["Public Speaking"],
-        link:"https://binusianorg-my.sharepoint.com/personal/alden_putra_binus_ac_id/_layouts/15/guestaccess.aspx?share=EQ3U_a4Rpp5Nn-0M0CMS4f0B9wUPduuDTRFIVFG7t938Hw&e=K7eyhW",
-    },
-    {
         name: "Content & Design - Paradigma Remaja",
         desc: "Initiating and creating content graphic design in a team of several creative members. Help provide suggestions related to the aesthetics and elaborating it to the stakeholders with wide formats of media (Photoshop, Hitfilm Express, Premiere Pro, Paint.NET, Canva).",
         image: "/pardig.png",
         soft: ["Communication", "Project Management"],
-    },
-    {
-        name: "Best Male Student - SMA Regina Pacis Graduation",
-        desc: "I graduated (batch 63 year 2021, AVG 93.47/100) from Regina Pacis Bogor High School as the Best Male Student in Natural Science and Math major. The event takes place at the school hall with strict health protocols.",
-        image: "/bestmale.jpg",
-        soft: ["Time Management"],
     },
     {
         name: "Belajar Bersama Maestro 2019 - Kementerian Pendidikan dan Kebudayaan Indonesia",
@@ -56,10 +43,10 @@ const experiences = [
 const Experiences = () => {
     return (
         <section id="experiences">
-            <div className='my-12 pb-12 md:pt-16 md:pb-48'>
+            <div className='my-12 pb-12 md:pt-16'>
 
                 <h1 className='my-10 text-center font-bold text-4xl'>
-                    Experiences & Honors
+                    Experiences
                     <hr className='w-6 h-1 mx-auto my-4 bg-teal-500 border-0 rounded'></hr>
                 </h1>
 

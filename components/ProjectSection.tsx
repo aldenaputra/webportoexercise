@@ -4,13 +4,6 @@ import Link from 'next/link'
 import { BsGithub, BsArrowUpRightSquare } from "react-icons/bs"
 import SlideUp from './SlideUp'
 
-interface Project {
-    name: string;
-    desc: string;
-    image: string;
-    techstack: string[];
-    link: string;
-}
 
 const projects = [
     {
@@ -45,7 +38,7 @@ const projects = [
         name: "KarenJET, Database Design Project",
         desc: "Entrusted to lead a database design project, KarenJET. Designing a database for enterprise scenarios and developing a mitigation plan for system alteration and recovery for specific scenarios that involve database transactions. Performed a strict normalization from 1NF to 5NF and created diagrams to elaborate the database system.",
         image: "/Database Design.png",
-        techstack: ["Database Design", "Normalization", "Excel", "Figma"],
+        techstack: ["Visual Paradigm", "Database Design", "Excel", "Figma"],
         link:"https://binusianorg-my.sharepoint.com/personal/alden_putra_binus_ac_id/_layouts/15/guestaccess.aspx?share=Ea_I6XQHFexNo-1RpLEk5MwBu3iwi47HMqHfiuZeruUoZg&e=zqngRY",
     },
     {
