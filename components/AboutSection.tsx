@@ -12,15 +12,15 @@ import { composeEmail } from './emailUtils'
 const skills = [
     { skill: "SQL" },
     { skill: "MySQL" },
-    { skill: "Python" },
     { skill: "Database Design" },
     { skill: "Laravel" },
     { skill: "Next.js" },
     { skill: "Git" },
+    { skill: "XAMPP" },
     { skill: "C/C++" },
     { skill: "Java" },
-    { skill: "R" },
-    { skill: "Virtual Machine (Cloudera)" },
+    { skill: "Python" },
+    { skill: "Cloudera Quickstart VM" },
 ]
 
 const softskills = [
