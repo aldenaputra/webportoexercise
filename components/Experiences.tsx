@@ -87,7 +87,7 @@ const Experiences = () => {
                                                     <div className='flex flex-wrap flex-row justify-start'>
                                                         {experience.soft.map((soft, softidx) => {
                                                             return(
-                                                                <p key={softidx} className="bg-gray-200 px-3 py-1.5 mb-1 mr-1 text-teal-600 text-sm rounded-full font-semibold"> {soft} </p>
+                                                                <p key={softidx} className="bg-gray-200 dark:border dark:bg-stone-900 dark:text-white px-3 py-1.5 mb-1 mr-1 text-teal-600 text-sm rounded-full font-semibold"> {soft} </p>
                                                             )
                                                         })}
                                                     </div>

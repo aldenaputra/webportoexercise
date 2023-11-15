@@ -76,7 +76,8 @@ const Navbar = () => {
                                     offset={-100}
                                     duration={500}
                                     onClick={() => setNavbar(!navbar)}
-                                    >{item.label}</ScrollLink>
+                                    >{item.label}
+                                    </ScrollLink>
                                 )
                             })}
                             {currentTheme === "dark" ? (
@@ -93,8 +94,6 @@ const Navbar = () => {
                         </div>
                     </div>
                 </div>
-                
-                
             </div>
         </header>
     )

@@ -121,7 +121,7 @@ const AboutSection = () => {
                         <h1 className='text-center text-2xl font-bold mb-6 md:text-left'>Technical Skills</h1>
                         <div className='flex flex-wrap flex-row justify-center md:justify-start'>
                             {skills.map((item, idx) => {
-                                return <p key={idx} className="bg-gray-200 px-4 py-2 mr-2 mt-2 text-teal-600 rounded font-semibold"> {item.skill} </p>
+                                return <p key={idx} className="bg-gray-200 dark:border dark:bg-stone-900 dark:text-white px-4 py-2 mr-2 mt-2 text-teal-600 rounded font-semibold"> {item.skill} </p>
                             })}
                         </div>
                         {/* <Image className="hidden md:block md:relative md:bottom-4 md:left-32 md:z-0" src="/stat.png" alt="" width={325} height={325}/> */}
@@ -132,7 +132,7 @@ const AboutSection = () => {
                         <h1 className='text-center text-2xl font-bold mb-6 md:text-left'>Soft Skills</h1>
                         <div className='flex flex-wrap flex-row justify-center md:justify-start'>
                             {softskills.map((item, idx) => {
-                                return <p key={idx} className="bg-gray-200 px-4 py-2 mr-2 mt-2 text-teal-600 rounded font-semibold"> {item.skill} </p>
+                                return <p key={idx} className="bg-gray-200 dark:border dark:bg-stone-900 dark:text-white px-4 py-2 mr-2 mt-2 text-teal-600 rounded font-semibold"> {item.skill} </p>
                             })}
                         </div>
                     </div>
