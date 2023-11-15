@@ -7,11 +7,32 @@ import SlideUp from './SlideUp'
 
 const projects = [
     {
-        name: "Travail: Travel and Rail, Software Engineering Project using Laravel Framework",
+        name: "Travail: Travel and Rail, Full-Stack E-Ticketing Website Software Engineering Project using Laravel",
         desc: "Entrusted to lead a software engineering project, Travail: Travel & Rail. Built a fully functional (full-stack) train e-ticketing website using Laravel's framework.",
         image: "/travail.png",
-        techstack: ["Laravel", "Vue.js", "XAMPP (MySQL)", "HTML", "CSS", "JavaScript", "Git", "Figma"],
+        techstack: ["MySQL", "Laravel", "Vue.js", "Apache XAMPP", "HTML", "CSS", "JavaScript", "Git", "Figma"],
         link:"https://github.com/VzGarnet/Travail.git",
+    },
+    {
+        name: "Basic Data Visualization in Jupyter Notebook, Utilizing SparkSQL on Cloudera Quickstart VM, Big Data Processing Project",
+        desc: "Performing basic data visualization and queries using SparkSQL (pySpark) in Jupyter Notebook on Cloudera Quickstart Virtual Machine.",
+        image: "/clasclus.png",
+        techstack: ["SQL", "Jupyter Notebook", "Cloudera", "Virtual Machine", "Apache Spark", "VMware Workstation", "Python"],
+        link:"https://github.com/aldenaputra/data-visualization-in-jupyter-spark-cloudera.git",
+    },
+    {
+        name: "Data Clustering & Classification on Multiple Datasets, Big Data Processing Project",
+        desc: "Performing data clustering using k-means model projected onto scatter plot and classification model in Cloudera Quickstart VM (Jupyter Notebook).",
+        image: "/vis.png",
+        techstack: ["SQL", "Jupyter Notebook", "Cloudera Quickstart VM", "Machine Learning", "Apache Spark", "VMware Workstation"],
+        link:"https://github.com/aldenaputra/clustering-and-classification.git",
+    },
+    {
+        name: "SARIMAX Prediction Model on Online Retail Dataset using Python (Google Colaboratory)",
+        desc: "Conducted exploratory data analysis (EDA) of an online retail dataset and executing model training to predict sales using SARIMAX algorithm in python (Google Colaboratory).",
+        image: "/sarimax.png",
+        techstack: ["Python", "Pandas", "Machine Learning", "Google Colab"],
+        link:"https://github.com/aldenaputra/SARIMAX-prediction-model.git",
     },
     {
         name: "Portfolio Website Project using Next.js Framework",
@@ -19,13 +40,6 @@ const projects = [
         image: "/porto.png",
         techstack: ["Next.js", "HTML", "Tailwind CSS", "TypeScript", "Git", "Vercel"],
         link:"https://github.com/aldenaputra/webportoexercise.git",
-    },
-    {
-        name: "SparkSQL (Jupyter Notebook & Hadoop) in Cloudera Virtual Machine, Big Data Processing Implementation",
-        desc: "Performing data visualization using SparkSQL (Sqoop) and exercising data clustering using k-means model projected onto scatter plot in Cloudera Quickstart VM (Jupyter Notebook).",
-        image: "/clasclus.png",
-        techstack: ["SQL", "Jupyter Notebook", "Cloudera Quickstart VM", "Hadoop User Experience (HUE)", "Apache Spark", "VMware Workstation"],
-        link:"https://github.com/aldenaputra/cloudera-jupyter-notebook.git",
     },
     {
         name: "Systematic Literature Review on IT Strategic Workspaces: Approach to Develop an Ideal Environment",
