@@ -7,7 +7,7 @@ import SlideUp from './SlideUp'
 
 const projects = [
     {
-        name: "Travail: Travel and Rail, Full-Stack E-Ticketing Website Software Engineering Project using Laravel",
+        name: "Travail: Travel and Rail. A Laravel Full-Stack E-Ticketing Website, Software Engineering Project",
         desc: "Entrusted to lead a software engineering project, Travail: Travel & Rail. Built a fully functional (full-stack) train e-ticketing website using Laravel's framework.",
         image: "/travail.png",
         techstack: ["MySQL", "Laravel", "Vue.js", "Apache XAMPP", "HTML", "CSS", "JavaScript", "Git", "Figma"],
@@ -15,14 +15,14 @@ const projects = [
     },
     {
         name: "Basic Data Visualization in Jupyter Notebook, Utilizing SparkSQL on Cloudera Quickstart VM, Big Data Processing Project",
-        desc: "Performing basic data visualization and queries using SparkSQL (pySpark) in Jupyter Notebook on Cloudera Quickstart Virtual Machine.",
+        desc: "Performing basic data visualization and queries (farm dataset) using SparkSQL (pySpark) in Jupyter Notebook on Cloudera Quickstart Virtual Machine.",
         image: "/clasclus.png",
         techstack: ["SQL", "Jupyter Notebook", "Cloudera", "Virtual Machine", "Apache Spark", "VMware Workstation", "Python"],
         link:"https://github.com/aldenaputra/data-visualization-in-jupyter-spark-cloudera.git",
     },
     {
         name: "Data Clustering & Classification on Multiple Datasets, Big Data Processing Project",
-        desc: "Performing data clustering using k-means model projected onto scatter plot and classification model in Cloudera Quickstart VM (Jupyter Notebook).",
+        desc: "Performing data clustering (trash pollution dataset) using k-means model projected onto scatter plot and classification model (airplane schedule delay dataset) in Cloudera Quickstart VM (Jupyter Notebook).",
         image: "/vis.png",
         techstack: ["SQL", "Jupyter Notebook", "Cloudera Quickstart VM", "Machine Learning", "Apache Spark", "VMware Workstation"],
         link:"https://github.com/aldenaputra/clustering-and-classification.git",
