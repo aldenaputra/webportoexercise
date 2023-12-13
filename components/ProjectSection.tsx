@@ -14,13 +14,6 @@ const projects = [
         link:"https://github.com/VzGarnet/Travail.git",
     },
     {
-        name: "Basic Data Visualization in Jupyter Notebook, Utilizing SparkSQL on Cloudera Quickstart VM, Big Data Processing Project",
-        desc: "Performing basic data visualization and queries (farm dataset) using SparkSQL (pySpark) in Jupyter Notebook on Cloudera Quickstart Virtual Machine.",
-        image: "/clasclus.png",
-        techstack: ["SQL", "Jupyter Notebook", "Cloudera", "Virtual Machine", "Apache Spark", "VMware Workstation", "Python"],
-        link:"https://github.com/aldenaputra/data-visualization-in-jupyter-spark-cloudera.git",
-    },
-    {
         name: "Data Clustering & Classification on Multiple Datasets, Big Data Processing Project",
         desc: "Performing data clustering (trash pollution dataset) using k-means model projected onto scatter plot and classification model (airplane schedule delay dataset) in Cloudera Quickstart VM (Jupyter Notebook).",
         image: "/vis.png",
@@ -35,18 +28,25 @@ const projects = [
         link:"https://github.com/aldenaputra/SARIMAX-prediction-model.git",
     },
     {
+        name: "Systematic Literature Review on IT Strategic Workspaces: Approach to Develop an Ideal Environment",
+        desc: "Conducted a SLR research (first author) regarding IT workspaces in order to find tangible metrics and method to develop an ideal environment for IT human resources. Accepted and presented in The 9th International Conference on Computing, Engineering and Design (ICCED 2023).",
+        image: "/rmcs.png",
+        techstack: ["Research", "Mendeley", "Systematic Literature Review"],
+        link:"https://lavender-magazine-13e.notion.site/Research-Paper-SLR-8fd20ca95e6342cfaedd44daebe983a3?pvs=4",
+    },
+    {
+        name: "Basic Data Visualization in Jupyter Notebook, Utilizing SparkSQL on Cloudera Quickstart VM, Big Data Processing Project",
+        desc: "Performing basic data visualization and queries (farm dataset) using SparkSQL (pySpark) in Jupyter Notebook on Cloudera Quickstart Virtual Machine.",
+        image: "/clasclus.png",
+        techstack: ["SQL", "Jupyter Notebook", "Cloudera", "Virtual Machine", "Apache Spark", "VMware Workstation", "Python"],
+        link:"https://github.com/aldenaputra/data-visualization-in-jupyter-spark-cloudera.git",
+    },
+    {
         name: "Portfolio Website Project using Next.js Framework",
         desc: "Created and deployed a portfolio website using the Next.js framework and free hosting services from Vercel.",
         image: "/porto.png",
         techstack: ["Next.js", "HTML", "Tailwind CSS", "TypeScript", "Git", "Vercel"],
         link:"https://github.com/aldenaputra/webportoexercise.git",
-    },
-    {
-        name: "Systematic Literature Review on IT Strategic Workspaces: Approach to Develop an Ideal Environment",
-        desc: "Conducted a research (SLR) regarding IT workspaces in order to find tangible metrics and method to develop an ideal environment for IT human resources. Ongoing for international conference publication in 9th ICCED 2023.",
-        image: "/rmcs.png",
-        techstack: ["Research", "Mendeley", "Systematic Literature Review"],
-        link:"https://lavender-magazine-13e.notion.site/Research-Paper-SLR-8fd20ca95e6342cfaedd44daebe983a3?pvs=4",
     },
     {
         name: "KarenJET, Database Design Project",

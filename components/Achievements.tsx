@@ -4,8 +4,14 @@ import Link from 'next/link'
 import { BsGithub, BsArrowUpRightSquare } from "react-icons/bs"
 import SlideUp from './SlideUp'
 
-
 const achievements = [
+    {
+        name: "First Author and Presenter in The 9th International Conference on Computing, Engineering and Design (ICCED 2023).",
+        desc: "First author of a research paper entitled 'Systematic Literature Review on IT Strategic Workspaces: Approach to Develop an Ideal Environment.' Presented internationally in ICCED 2023.",
+        image: "/icced.png",
+        soft: ["Presentation", "Research", "Public Speaking", "Communication", "Systematic Literature Review"],
+        link: "https://binusianorg-my.sharepoint.com/personal/alden_putra_binus_ac_id/_layouts/15/guestaccess.aspx?share=EaVCZb9GL8VEhnvVMPTlVHwB0kyNiuxdwmJWCSa31pQCDA&e=sdDnIH",
+    },
     {
         name: "Big Data Analytics: Building Competitive Advantages in the Digital Age",
         desc: "Participate in webinars on big data analytics and emerging trends in the digital era.",
