@@ -7,13 +7,6 @@ import SlideUp from './SlideUp'
 
 const projects = [
     {
-        name: "Travail: Travel and Rail. A Laravel Full-Stack E-Ticketing Website, Software Engineering Project",
-        desc: "Entrusted to lead a software engineering project, Travail: Travel & Rail. Built a fully functional (full-stack) train e-ticketing website using Laravel's framework.",
-        image: "/travail.png",
-        techstack: ["MySQL", "Laravel", "Vue.js", "Apache XAMPP", "HTML", "CSS", "JavaScript", "Git", "Figma"],
-        link:"https://github.com/VzGarnet/Travail.git",
-    },
-    {
         name: "Data Clustering & Classification on Multiple Datasets, Big Data Processing Project",
         desc: "Performing data clustering (trash pollution dataset) using k-means model projected onto scatter plot and classification model (airplane schedule delay dataset) in Cloudera Quickstart VM (Jupyter Notebook).",
         image: "/vis.png",
@@ -28,11 +21,11 @@ const projects = [
         link:"https://github.com/aldenaputra/SARIMAX-prediction-model.git",
     },
     {
-        name: "Systematic Literature Review on IT Strategic Workspaces: Approach to Develop an Ideal Environment",
-        desc: "Conducted a SLR research (first author) regarding IT workspaces in order to find tangible metrics and method to develop an ideal environment for IT human resources. Accepted and presented in The 9th International Conference on Computing, Engineering and Design (ICCED 2023).",
-        image: "/rmcs.png",
-        techstack: ["Research", "Mendeley", "Systematic Literature Review"],
-        link:"https://lavender-magazine-13e.notion.site/Research-Paper-SLR-8fd20ca95e6342cfaedd44daebe983a3?pvs=4",
+        name: "Comparison of 4 SVM Kernels Performances in Aviation Satisfaction Dataset, Data Mining Project",
+        desc: "Conducted a complete process of KDD (Knowledge Discovery in Databases): exploratory data analysis (EDA), data preprocessing, outlier analysis, model fitting (classification prediction analysis), model evaluation, and permutation importance between SVM kernels (linear, RBF, polynomial, and sigmoid), of an aviation satisfaction dataset using python (Google Colaboratory).",
+        image: "/datamining.png",
+        techstack: ["Python", "Pandas", "Machine Learning", "Google Colab"],
+        link:"https://github.com/aldenaputra/svm-4-kernel-comparison.git",
     },
     {
         name: "Basic Data Visualization in Jupyter Notebook, Utilizing SparkSQL on Cloudera Quickstart VM, Big Data Processing Project",
@@ -40,6 +33,20 @@ const projects = [
         image: "/clasclus.png",
         techstack: ["SQL", "Jupyter Notebook", "Cloudera", "Virtual Machine", "Apache Spark", "VMware Workstation", "Python"],
         link:"https://github.com/aldenaputra/data-visualization-in-jupyter-spark-cloudera.git",
+    },
+    {
+        name: "PlaTo UI/UX Prototyping, Human & Computer Interaction Project",
+        desc: "Designing UI and conducting UX testing (via survey and prototype testing) for IoT application that featured to perform automatic plant nursery remotely.",
+        image: "/plato.png",
+        techstack: ["UI Prototyping", "UX Testing", "Figma"],
+        link:"https://www.figma.com/file/UQahPrf3riu2UKva5k0csY/HCI---AoL-Case?type=design&node-id=101%3A2&mode=design&t=QbNj488Xs4JhnUr4-1",
+    },
+    {
+        name: "Travail: Travel and Rail. A Laravel Full-Stack E-Ticketing Website, Software Engineering Project",
+        desc: "Entrusted to lead a software engineering project, Travail: Travel & Rail. Built a fully functional (full-stack) train e-ticketing website using Laravel's framework.",
+        image: "/travail.png",
+        techstack: ["MySQL", "Laravel", "Vue.js", "Apache XAMPP", "HTML", "CSS", "JavaScript", "Git", "Figma"],
+        link:"https://github.com/VzGarnet/Travail.git",
     },
     {
         name: "Portfolio Website Project using Next.js Framework",
@@ -54,13 +61,6 @@ const projects = [
         image: "/Database Design.png",
         techstack: ["Visual Paradigm", "Database Design", "Excel", "Figma"],
         link:"https://binusianorg-my.sharepoint.com/personal/alden_putra_binus_ac_id/_layouts/15/guestaccess.aspx?share=Ea_I6XQHFexNo-1RpLEk5MwBu3iwi47HMqHfiuZeruUoZg&e=zqngRY",
-    },
-    {
-        name: "PlaTo UI/UX Prototyping, Human & Computer Interaction Project",
-        desc: "Designing UI and conducting UX testing (via survey and prototype testing) for IoT application that featured to perform automatic plant nursery remotely.",
-        image: "/plato.png",
-        techstack: ["UI Prototyping", "UX Testing", "Figma"],
-        link:"https://www.figma.com/file/UQahPrf3riu2UKva5k0csY/HCI---AoL-Case?type=design&node-id=101%3A2&mode=design&t=QbNj488Xs4JhnUr4-1",
     },
     {
         name: "Java CRUD + Search Text-Based Application, Object Oriented Programming Final Project",
@@ -82,6 +82,13 @@ const projects = [
         image: "/cn.png",
         techstack: ["Cisco Packet Tracer", "Figma"],
         link:"https://binusianorg-my.sharepoint.com/personal/alden_putra_binus_ac_id/_layouts/15/guestaccess.aspx?share=EW2O2MDH3w1Nofp_3QBWyzsBNHT_M0GTICEKxs568-y1Bg&e=z31jAs",
+    },
+    {
+        name: "Systematic Literature Review on IT Strategic Workspaces: Approach to Develop an Ideal Environment",
+        desc: "Conducted a SLR research (first author) regarding IT workspaces in order to find tangible metrics and method to develop an ideal environment for IT human resources. Accepted and presented in The 9th International Conference on Computing, Engineering and Design (ICCED 2023).",
+        image: "/rmcs.png",
+        techstack: ["Research", "Mendeley", "Systematic Literature Review"],
+        link:"https://lavender-magazine-13e.notion.site/Research-Paper-SLR-8fd20ca95e6342cfaedd44daebe983a3?pvs=4",
     },
 ]
 
