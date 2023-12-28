@@ -18,7 +18,7 @@ const HeroSection = () => {
                     <span className="font-semibold text-teal-600">
                         third-year student {" "}
                     </span>
-                    (GPA 3.89) in BINUS University, Jakarta. Currently studying Computer Science focusing in Database Technology.
+                    (GPA 3.89) at BINUS University, Jakarta. Currently studying Computer Science focusing on Database Technology.
                 </p>
                 <ScrollLink
                 to="projects"
@@ -33,7 +33,7 @@ const HeroSection = () => {
                 </ScrollLink>
 
                 <a
-                href="https://binusianorg-my.sharepoint.com/personal/alden_putra_binus_ac_id/_layouts/15/guestaccess.aspx?share=EaH4bPhO3pBOgQXGg2dq-YsBe9xU7VP73QDcvrfKHR5lYg&e=ZELc7Y"
+                href="https://binusianorg-my.sharepoint.com/personal/alden_putra_binus_ac_id/_layouts/15/guestaccess.aspx?share=ER4jyzALuF9FvST7lwbbf4cBB4ugFueR04LClk0se2FRTg&e=9WXRra"
                 className="ml-3 text-neutral-100 font-semibold px-6 py-3 bg-teal-600 rounded shadow hover:bg-teal-700"
                 >CV</a>
             </div>
