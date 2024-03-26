@@ -10,16 +10,25 @@ import  {
 import { composeEmail } from './emailUtils'
 
 const skills = [
+    { skill: "Python" },
+    { skill: "Data Science" },
+    { skill: "Machine Learning" },
+    { skill: "Data Analytics" },
+    { skill: "Power BI & DAX" },
+    { skill: "Data Engineering" },
     { skill: "SQL" },
     { skill: "MySQL" },
     { skill: "Database Design" },
+    { skill: "Data Warehouse" },
+    { skill: "Apache Spark" },
+    { skill: "Big Data Processing" },
+    { skill: "Hadoop (Apache Hive)" },
     { skill: "Laravel" },
     { skill: "Next.js" },
     { skill: "Git" },
     { skill: "XAMPP" },
     { skill: "C/C++" },
     { skill: "Java" },
-    { skill: "Python" },
     { skill: "Cloudera Quickstart VM" },
 ]
 
@@ -31,6 +40,8 @@ const softskills = [
     { skill: "Problem Solving" },
     { skill: "Risk Management" },
     { skill: "Time Management" },
+    { skill: "Collaboration" },
+    { skill: "Project Management" },
 ]
 
 const AboutSection = () => {

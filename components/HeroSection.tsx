@@ -18,7 +18,7 @@ const HeroSection = () => {
                     <span className="font-semibold text-teal-600">
                         third-year student {" "}
                     </span>
-                    (GPA 3.89) at BINUS University, Jakarta. Currently studying Computer Science focusing on Database Technology.
+                    (GPA 3.91) at BINUS University, Jakarta. Currently studying Computer Science focusing on Database Technology.
                 </p>
                 <ScrollLink
                 to="projects"

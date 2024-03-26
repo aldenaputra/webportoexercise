@@ -88,7 +88,7 @@ const projects = [
         desc: "Conducted a SLR research (first author) regarding IT workspaces in order to find tangible metrics and method to develop an ideal environment for IT human resources. Accepted and presented in The 9th International Conference on Computing, Engineering and Design (ICCED 2023).",
         image: "/rmcs.png",
         techstack: ["Research", "Mendeley", "Systematic Literature Review"],
-        link:"https://lavender-magazine-13e.notion.site/Research-Paper-SLR-8fd20ca95e6342cfaedd44daebe983a3?pvs=4",
+        link:"https://aldenisius.notion.site/Research-Paper-SLR-8fd20ca95e6342cfaedd44daebe983a3?pvs=4",
     },
 ]
 
