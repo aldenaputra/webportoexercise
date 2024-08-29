@@ -56,7 +56,7 @@ const AboutSection = () => {
                         <h1 className='text-center text-2xl font-bold mb-6 md:text-left'>Introduction</h1>
                         <p>
                             {" "}
-                            My name is Alden Ardiwinata Putra, often called Alden. I am currently pursuing a Master's degree in Computer Science at BINUS University.
+                            My name is Alden Ardiwinata Putra, often called Alden. I am currently pursuing a Master&apos;s degree in Computer Science at BINUS University.
                         </p>
                         <br />
                         <p>
