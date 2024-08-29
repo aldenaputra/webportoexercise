@@ -8,10 +8,17 @@ import SlideUp from './SlideUp'
 const works = [
     {
         name: "Data Scientist Intern at Toyota Astra Financial Services (TAFS) - MSIB Kampus Merdeka",
-        desc: "Currently doing an internship as a data scientist at Toyota Astra Financial Services (TAFS). As an awardee of the MSIB Kampus Merdeka Batch 6, I will be part of Pt. Astra International Tbk. in TAFS subsidiary for approximately 5 months. My project revolves around the HR System and the development of data science & analytics for the company's internal operations.",
+        desc: "As an awardee of the MSIB Kampus Merdeka Batch 6, I was part of PT. Astra International Tbk. in the TAFS subsidiary for approximately 5 months. My project revolved around the HR system and the development of data science & analytics for the company's internal operations.",
         image: "/msib.jpg",
         techstack: ["Python", "Jupyter Notebook", "Microsoft Power BI", "Machine Learning", "Data Analytics", "DAX", "Microsoft Excel"],
         link:"https://www.linkedin.com/posts/aldenaputra_astracareer-astrakampusmerdeka-msib6-activity-7163822170203258881-tVzq?utm_source=share&utm_medium=member_desktop",
+    },
+    {
+        name: "Reporting Analyst Intern at Toyota Astra Financial Services (TAFS) - Independent",
+        desc: "I continued my internship at TAFS as a reporting analyst for approximately 2 months. My responsibilities were in the final stage of data engineering & collection, which involved reporting using the Microsoft Power BI platform and DAX. During this extension, I also deepened my understanding of data governance, data security access, semantic modeling, and data reconciliation.",
+        image: "/RATAFS.png",
+        techstack: ["Microsoft Power BI", "Reporting & Analysis", "Data Analytics", "DAX", "Data Reconciliation"],
+        link:"https://www.linkedin.com/in/aldenaputra",
     },
 ]
 
@@ -20,7 +27,7 @@ const WorkSection = () => {
         <section id="projects">
             <div className='my-12 pb-12 md:pt-16'>
                 <h1 className='my-10 text-center font-bold text-4xl'>
-                    Work
+                    Work Experiences
                     <hr className='w-6 h-1 mx-auto my-4 bg-teal-500 border-0 rounded'></hr>
                 </h1>
 

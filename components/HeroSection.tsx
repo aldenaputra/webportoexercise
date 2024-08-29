@@ -16,9 +16,9 @@ const HeroSection = () => {
                 <p className='text-lg mt-4 mb-6 md:text-2xl'>
                     I&apos;m a {" "}
                     <span className="font-semibold text-teal-600">
-                        third-year student {" "}
+                        Master's student {" "}
                     </span>
-                    (GPA 3.91) at BINUS University, Jakarta. Currently studying Computer Science focusing on Database Technology.
+                    at BINUS University, Jakarta. Currently studying Computer Science.
                 </p>
                 <ScrollLink
                 to="projects"

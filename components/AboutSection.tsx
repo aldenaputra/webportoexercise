@@ -14,22 +14,15 @@ const skills = [
     { skill: "Data Science" },
     { skill: "Machine Learning" },
     { skill: "Data Analytics" },
-    { skill: "Power BI & DAX" },
+    { skill: "Microsoft Power BI" },
+    { skill: "DAX" },
     { skill: "Data Engineering" },
     { skill: "SQL" },
-    { skill: "MySQL" },
     { skill: "Database Design" },
     { skill: "Data Warehouse" },
-    { skill: "Apache Spark" },
+    { skill: "Data Governance" },
     { skill: "Big Data Processing" },
-    { skill: "Hadoop (Apache Hive)" },
-    { skill: "Laravel" },
-    { skill: "Next.js" },
-    { skill: "Git" },
-    { skill: "XAMPP" },
-    { skill: "C/C++" },
-    { skill: "Java" },
-    { skill: "Cloudera Quickstart VM" },
+    { skill: "Virtual Machine" },
 ]
 
 const softskills = [
@@ -45,7 +38,7 @@ const softskills = [
 ]
 
 const AboutSection = () => {
-    const recipientEmail = 'alden.putra@binus.ac.id';
+    const recipientEmail = 'alden.aputra@gmail.com';
 
     const handleClick = () => {
         composeEmail(recipientEmail);
@@ -63,7 +56,7 @@ const AboutSection = () => {
                         <h1 className='text-center text-2xl font-bold mb-6 md:text-left'>Introduction</h1>
                         <p>
                             {" "}
-                            My name is Alden Ardiwinata Putra. I often go by Alden. Currently at my third-year grade studying Computer Science in BINUS University, focusing on Database Technology. 
+                            My name is Alden Ardiwinata Putra, often called Alden. I am currently pursuing a Master's degree in Computer Science at BINUS University.
                         </p>
                         <br />
                         <p>
